@@ -6,7 +6,7 @@ setup(
     version='0.1.0dev1',
     author='Jonas Zaddach',
     author_email='zaddach@eurecom.fr',
-    packages=['smart_strings.py'],
+    packages=['smart_strings'],
     url='https://github.com/zaddach/smart-strings',
     license='MIT',
     description='A smarter version of the unix strings utility',
