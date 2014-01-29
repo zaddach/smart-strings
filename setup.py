@@ -7,6 +7,7 @@ setup(
     author='Jonas Zaddach',
     author_email='zaddach@eurecom.fr',
     py_modules=['smart_strings'],
+    requires=['enchant'],
     url='https://github.com/zaddach/smart-strings',
     license='MIT',
     description='A smarter version of the unix strings utility',
