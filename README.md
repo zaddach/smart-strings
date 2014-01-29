@@ -3,7 +3,9 @@ smart-strings
 
 An implementation of the unix 'strings' utility in python that has some more advanced features
 
-== Usage examples ==
+Usage examples
+--------------
+
 - *./smart_strings.py <file>* will search for sequences of at least 5 readable characters in
   the whole file (contrary to the strings utility object files are not treated specially).
 - *./smart_strings.py -d en_US -n 6 <file>* will print all strings that have at least one word
