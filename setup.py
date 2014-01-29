@@ -3,10 +3,10 @@ from distutils.core import setup
 
 setup(
     name='smart-strings',
-    version='0.1.0dev1',
+    version='0.0.1',
     author='Jonas Zaddach',
     author_email='zaddach@eurecom.fr',
-    packages=['smart_strings'],
+    py_modules=['smart_strings'],
     url='https://github.com/zaddach/smart-strings',
     license='MIT',
     description='A smarter version of the unix strings utility',
